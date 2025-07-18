@@ -20,7 +20,7 @@ const upload = multer({ storage: storage });
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: '',
+    password: 'Republic_C207',
     database: 'c237_supermarketdb'
   });
 
